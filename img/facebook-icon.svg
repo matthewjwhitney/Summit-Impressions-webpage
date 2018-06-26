@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="16px"
+   height="16px"
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="SVGRoot"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="facebook-icon-grey.svg">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="16"
+     inkscape:cx="30.009636"
+     inkscape:cy="2.6865476"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:grid-bbox="true" />
+  <defs
+     id="defs1489" />
+  <metadata
+     id="metadata1492">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <path
+       d="M 10.362033,4.7144332 H 9.2467455 c -0.3939336,0 -0.4759542,0.1613804 -0.4759542,0.5686143 V 6.2673211 H 10.362033 L 10.20885,7.9951228 H 8.7707913 V 13.156353 H 6.7098028 V 8.0168485 H 5.6379648 V 6.2673229 h 1.071838 V 4.8895627 c 0,-1.2930795 0.6916516,-1.9683265 2.2252563,-1.9683265 H 10.362033 Z M 7.9999992,0.01940297 c -4.4077272,0 -7.98059596,3.57286993 -7.98059596,7.98059663 0,4.4077264 3.57286876,7.9805974 7.98059596,7.9805974 4.4075078,0 7.9805978,-3.572871 7.9805978,-7.9805974 0,-4.4077267 -3.57309,-7.98059663 -7.9805978,-7.98059663"
+       style="fill:#636363;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.22168322"
+       id="path847"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

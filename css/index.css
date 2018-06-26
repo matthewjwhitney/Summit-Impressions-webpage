@@ -8,24 +8,129 @@
   src: url(../font/bahnschrift.ttf);
 }
 
-header {
-  padding: 154px 0 100px;
+@font-face {
+  font-family: Calibri Light;
+  src: url(../font/calibril.ttf);
 }
 
-@media (min-width: 992px) {
-  header {
-    padding: 156px 0 100px;
-  }
+.bahnschrift {
+  font-family: Bahnschrift;
 }
 
 section {
   padding: 150px 0;
 }
 
-.summit-font {
-  font-family: Bahnschrift;
+.calibri {
+  font-family: Calibri Light;
 }
 
-.summit-teal {
-  color: #115b63bf
+.summit-blue {
+  color: #0082c8
+}
+
+.summit-lightblue {
+  color: #00bce4
+}
+.summit-grey {
+  color: #636363
+}
+
+.brand-text {
+  font-size: 12rem;
+}
+
+.header-text {
+  letter-spacing: 5px;
+  font-size: 3rem
+}
+
+body { 
+  padding-top: 175px; 
+}
+
+.vcenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.btn-warning {
+  color: #ffffff;
+  background-color: #0082c8;
+  border-color: #0082c8;
+}
+.btn-warning:focus,
+.btn-warning.focus {
+  color: #ffffff;
+  background-color: #00bce4;
+  border-color: #00bce4;
+}
+
+.btn-warning:hover {
+  color: #ffffff;
+  background-color: #00bce4;
+  border-color: #00bce4;
+}
+.btn-warning:active,
+.btn-warning.active,
+.open > .dropdown-toggle.btn-warning {
+  color: #ffffff;
+  background-color: #00bce4;
+  border-color: #00bce4;
+}
+.btn-warning:active:hover,
+.btn-warning.active:hover,
+.open > .dropdown-toggle.btn-warning:hover,
+.btn-warning:active:focus,
+.btn-warning.active:focus,
+.open > .dropdown-toggle.btn-warning:focus,
+.btn-warning:active.focus,
+.btn-warning.active.focus,
+.open > .dropdown-toggle.btn-warning.focus {
+  color: #ffffff;
+  background-color: #00bce4;
+  border-color: #00bce4;
+}
+.btn-warning:active,
+.btn-warning.active,
+.open > .dropdown-toggle.btn-warning {
+  background-image: none;
+}
+.btn-warning.disabled:hover,
+.btn-warning[disabled]:hover,
+fieldset[disabled] .btn-warning:hover,
+.btn-warning.disabled:focus,
+.btn-warning[disabled]:focus,
+fieldset[disabled] .btn-warning:focus,
+.btn-warning.disabled.focus,
+.btn-warning[disabled].focus,
+fieldset[disabled] .btn-warning.focus {
+  background-color: #00bce4;
+  border-color: #00bce4;
+}
+.btn-warning .badge {
+  color: #00bce4;
+  background-color: #ffffff;
+}
+
+.bg-img {
+  background-image: url("../img/blue-textured-background.svg");
+  background-size: 100% auto;
+  overflow: hidden;
+}
+
+#navbarResponsive {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.card-icon {
+  max-width: 150px;
+  max-height: 150px;
+  position: relative;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0)
 }

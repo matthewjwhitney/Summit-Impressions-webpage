@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1920"
+   height="1080"
+   viewBox="0 0 508 285.75001"
+   version="1.1"
+   id="svg9164"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="blue-textured-background.svg">
+  <defs
+     id="defs9158">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient10013">
+      <stop
+         style="stop-color:#0082c8;stop-opacity:1;"
+         offset="0"
+         id="stop10009" />
+      <stop
+         style="stop-color:#0082c8;stop-opacity:0;"
+         offset="1"
+         id="stop10011" />
+    </linearGradient>
+    <filter
+       y="-0.15"
+       height="1.3"
+       x="-0.15"
+       width="1.3"
+       inkscape:menu-tooltip="Aquarelle paper effect which can be used for pictures as for objects"
+       inkscape:menu="Textures"
+       inkscape:label="Rough Paper"
+       style="color-interpolation-filters:sRGB;"
+       id="filter10007">
+      <feTurbulence
+         type="fractalNoise"
+         baseFrequency="0.04"
+         numOctaves="5"
+         seed="0"
+         result="result4"
+         id="feTurbulence9993" />
+      <feDisplacementMap
+         in="SourceGraphic"
+         in2="result4"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         scale="10"
+         result="result3"
+         id="feDisplacementMap9995" />
+      <feDiffuseLighting
+         lighting-color="rgb(233,230,215)"
+         diffuseConstant="1"
+         surfaceScale="2"
+         result="result1"
+         in="result4"
+         id="feDiffuseLighting9999">
+        <feDistantLight
+           azimuth="235"
+           elevation="40"
+           id="feDistantLight9997" />
+      </feDiffuseLighting>
+      <feComposite
+         operator="in"
+         in="result3"
+         in2="result1"
+         result="result2"
+         id="feComposite10001" />
+      <feComposite
+         in2="result1"
+         result="result5"
+         operator="arithmetic"
+         k1="1.7"
+         id="feComposite10003" />
+      <feBlend
+         in="result5"
+         in2="result3"
+         mode="normal"
+         id="feBlend10005" />
+    </filter>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient10013"
+       id="radialGradient10015"
+       cx="253.99998"
+       cy="154.12492"
+       fx="253.99998"
+       fy="154.12492"
+       r="335.79394"
+       gradientTransform="matrix(1.1970543,-0.00313051,0.00144398,0.5521539,-50.274344,69.819395)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="1675.9395"
+     inkscape:cy="454.34297"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata9161">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Layer 2">
+    <rect
+       style="opacity:1;fill:#080808;fill-opacity:1;stroke:#000000;stroke-width:0.50295448;stroke-opacity:1"
+       id="rect9715-6"
+       width="516.60608"
+       height="285.24704"
+       x="-4.3030396"
+       y="0.2514801" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-11.24994)">
+    <rect
+       style="opacity:0;fill:#00bce4;fill-opacity:1;stroke:#000000;stroke-width:0.26458332;stroke-opacity:1"
+       id="rect9709"
+       width="1920.119"
+       height="1079.4989"
+       x="-7.4593963e-008"
+       y="-782.50006" />
+    <rect
+       style="opacity:0;fill:#0082c8;fill-opacity:0;stroke:#000000;stroke-width:0.26458332;stroke-opacity:1"
+       id="rect9711"
+       width="256.26785"
+       height="148.16667"
+       x="189.74405"
+       y="-770.40479" />
+    <rect
+       style="opacity:0;fill:#05a8ff;fill-opacity:1;stroke:#000000;stroke-width:0.26458332;stroke-opacity:1"
+       id="rect9713"
+       width="291.41965"
+       height="144.00893"
+       x="187.09822"
+       y="-752.26196" />
+    <rect
+       style="opacity:1;fill:url(#radialGradient10015);fill-opacity:1;stroke:#000000;stroke-width:0.50295448;stroke-opacity:1;filter:url(#filter10007)"
+       id="rect9715"
+       width="516.60608"
+       height="285.24704"
+       x="-4.3030396"
+       y="11.50142"
+       transform="matrix(1.034596,0,0,1.034596,-8.7873681,-5.3320975)" />
+  </g>
+</svg>
