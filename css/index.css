@@ -5,12 +5,18 @@
  */
  @font-face {
   font-family: Bahnschrift;
-  src: url(../font/bahnschrift.ttf);
+  src: 
+    url('../font/Bahnschrift.woff2') format('woff2'),
+    url('../font/Bahnschrift.woff') format('woff'),
+    url('../font/bahnschrift.ttf')  format('truetype');
 }
 
 @font-face {
   font-family: Calibri Light;
-  src: url(../font/calibril.ttf);
+  src:  
+    url('../font/Calibri-Light.woff2') format('woff2'),
+    url('../font/Calibiri-Light.woff') format('woff'),
+    url('../font/calibril.ttf')  format('truetype');
 }
 
 .bahnschrift {
@@ -167,12 +173,6 @@ width: 220px;
     font-size: 4rem
   }
 
-  .navbar-nav {
-    position:absolute;
-    bottom: 0;
-    right: 0;
-  }
-
   body { 
     padding-top: 175px; 
   }
@@ -180,9 +180,19 @@ width: 220px;
   #phone-nav {
     position: absolute;
     top: 2rem;
-    right: 2rem;
+    right: .5rem;
     display: block !important;
     font-size: 2rem;
+  }
+
+  .container {
+    position: relative;
+  }
+
+  .bottom-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
   }
 
 }
