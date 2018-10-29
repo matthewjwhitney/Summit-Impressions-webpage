@@ -55,8 +55,8 @@ section {
 }
 
 .header-text {
-  letter-spacing: 5px;
-  font-size: 3rem
+  letter-spacing: .25rem;
+  font-size: 2.5rem
 }
 
 body { 
@@ -64,7 +64,7 @@ body {
 }
 
 .vcenter {
-  display: flex;
+  display: inline;
   flex-direction: column;
   justify-content: center;
 }
@@ -155,7 +155,7 @@ width: 220px;
   .brand-text {
     font-size: 10rem;
   }
-  
+
  }
 
 @media (min-width: 768px) {
@@ -168,13 +168,8 @@ width: 220px;
     display: block !important;
   }
 
-  .header-text {
-    letter-spacing: 5px;
-    font-size: 4rem
-  }
-
   body { 
-    padding-top: 175px; 
+    padding-top: 152px; 
   }
 
   #phone-nav {
@@ -182,7 +177,7 @@ width: 220px;
     top: 2rem;
     right: .5rem;
     display: block !important;
-    font-size: 2rem;
+    font-size: 1.66rem;
   }
 
   .container {
@@ -198,7 +193,10 @@ width: 220px;
 }
 
 @media (min-width: 992px) {
-
+  .header-text {
+    letter-spacing: .5rem;
+    font-size: 3.5rem
+  }
  }
 
 @media (min-width: 1200px) { 
